@@ -1,0 +1,350 @@
+{
+  "week": [
+    {
+      "slug": "lunedi",
+      "title": "Lunedì",
+      "focus": "Full body + cardio breve",
+      "exercises": [
+        {
+          "id": "squat-bodyweight",
+          "title": "Squat a corpo libero",
+          "muscleGroup": "gambe",
+          "youtubeId": "YaXPRqUwItQ",
+          "sets": 3,
+          "reps": "20",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Profondo, controllato. Mantieni la schiena dritta."
+        },
+        {
+          "id": "pushup",
+          "title": "Push-up",
+          "muscleGroup": "petto",
+          "youtubeId": "IODxDxX7oi4",
+          "sets": 3,
+          "reps": "12",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Ginocchia a terra se serve. Scendi fino a toccare quasi il pavimento."
+        },
+        {
+          "id": "db-row-6kg",
+          "title": "Rematore con manubri",
+          "muscleGroup": "schiena",
+          "youtubeId": "roCP6wCXPqo",
+          "sets": 3,
+          "reps": "15",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": ["manubri 6kg"],
+          "notes": "Schiena neutra, movimento controllato. Porta il gomito indietro."
+        },
+        {
+          "id": "plank",
+          "title": "Plank",
+          "muscleGroup": "core",
+          "youtubeId": "ASdvN_XEl_c",
+          "sets": 3,
+          "reps": "30s",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": ["tappetino"],
+          "notes": "Corpo in linea retta. Non alzare i glutei."
+        },
+        {
+          "id": "jumping-jacks",
+          "title": "Jumping Jacks",
+          "muscleGroup": "full",
+          "youtubeId": "c4DAnQ6DtF8",
+          "sets": 2,
+          "reps": "30",
+          "restSec": 30,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Cardio finale. Mantieni un ritmo sostenuto."
+        }
+      ]
+    },
+    {
+      "slug": "martedi",
+      "title": "Martedì",
+      "focus": "Upper body - petto e braccia",
+      "exercises": [
+        {
+          "id": "pushup-wide",
+          "title": "Push-up larghi",
+          "muscleGroup": "petto",
+          "youtubeId": "IODxDxX7oi4",
+          "sets": 4,
+          "reps": "10",
+          "restSec": 60,
+          "difficulty": "intermedio",
+          "equipment": [],
+          "notes": "Mani più larghe delle spalle per enfatizzare il petto."
+        },
+        {
+          "id": "dips-chair",
+          "title": "Dips su sedia",
+          "muscleGroup": "braccia",
+          "youtubeId": "0326dy_-CzM",
+          "sets": 3,
+          "reps": "12",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": ["sedia"],
+          "notes": "Per i tricipiti. Scendi fino a 90° con i gomiti."
+        },
+        {
+          "id": "db-shoulder-press",
+          "title": "Shoulder press con manubri",
+          "muscleGroup": "spalle",
+          "youtubeId": "qEwKCR5JCog",
+          "sets": 3,
+          "reps": "12",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": ["manubri 6kg"],
+          "notes": "Premi sopra la testa, controllato in discesa."
+        },
+        {
+          "id": "bicep-curl",
+          "title": "Curl bicipiti",
+          "muscleGroup": "braccia",
+          "youtubeId": "ykJmrZ5v0Oo",
+          "sets": 3,
+          "reps": "15",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": ["manubri 6kg"],
+          "notes": "Non oscillare. Movimento controllato."
+        }
+      ]
+    },
+    {
+      "slug": "mercoledi",
+      "title": "Mercoledì",
+      "focus": "Riposo attivo - stretching",
+      "exercises": [
+        {
+          "id": "full-body-stretch",
+          "title": "Stretching full body",
+          "muscleGroup": "full",
+          "youtubeId": "g_tea8ZNk5A",
+          "sets": 1,
+          "reps": "15 min",
+          "difficulty": "base",
+          "equipment": ["tappetino"],
+          "notes": "Routine completa di allungamento. Respira profondamente."
+        },
+        {
+          "id": "yoga-flow",
+          "title": "Yoga flow leggero",
+          "muscleGroup": "full",
+          "youtubeId": "v7AYKMP6rOE",
+          "sets": 1,
+          "reps": "20 min",
+          "difficulty": "base",
+          "equipment": ["tappetino"],
+          "notes": "Mobilità e recupero. Ascolta il tuo corpo."
+        }
+      ]
+    },
+    {
+      "slug": "giovedi",
+      "title": "Giovedì",
+      "focus": "Lower body - gambe e glutei",
+      "exercises": [
+        {
+          "id": "squat-goblet",
+          "title": "Goblet squat",
+          "muscleGroup": "gambe",
+          "youtubeId": "MeIiIdhvXT4",
+          "sets": 4,
+          "reps": "15",
+          "restSec": 60,
+          "difficulty": "intermedio",
+          "equipment": ["manubrio 6kg"],
+          "notes": "Tieni il manubrio vicino al petto. Scendi profondo."
+        },
+        {
+          "id": "lunges",
+          "title": "Affondi alternati",
+          "muscleGroup": "gambe",
+          "youtubeId": "QOVaHwm-Q6U",
+          "sets": 3,
+          "reps": "12 per gamba",
+          "restSec": 60,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Ginocchio anteriore a 90°. Mantieni l'equilibrio."
+        },
+        {
+          "id": "glute-bridge",
+          "title": "Ponte glutei",
+          "muscleGroup": "gambe",
+          "youtubeId": "wPM8icPu6H8",
+          "sets": 3,
+          "reps": "20",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": ["tappetino"],
+          "notes": "Stringi i glutei in alto. Pausa di 1 secondo in cima."
+        },
+        {
+          "id": "calf-raises",
+          "title": "Sollevamento polpacci",
+          "muscleGroup": "gambe",
+          "youtubeId": "3j4ecUL80v4",
+          "sets": 3,
+          "reps": "20",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Su punta massima. Usa un rialzo se possibile."
+        }
+      ]
+    },
+    {
+      "slug": "venerdi",
+      "title": "Venerdì",
+      "focus": "Core e schiena",
+      "exercises": [
+        {
+          "id": "pullup-assisted",
+          "title": "Pull-up assistiti / Australian pull-up",
+          "muscleGroup": "schiena",
+          "youtubeId": "1yMy0xVaXYU",
+          "sets": 3,
+          "reps": "8",
+          "restSec": 90,
+          "difficulty": "intermedio",
+          "equipment": ["sbarra bassa o elastico"],
+          "notes": "Usa un elastico o fai i rematori da supini."
+        },
+        {
+          "id": "superman",
+          "title": "Superman",
+          "muscleGroup": "schiena",
+          "youtubeId": "z6PJMT2y8GQ",
+          "sets": 3,
+          "reps": "15",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": ["tappetino"],
+          "notes": "Per la zona lombare. Solleva braccia e gambe insieme."
+        },
+        {
+          "id": "russian-twist",
+          "title": "Russian twist",
+          "muscleGroup": "core",
+          "youtubeId": "wkD8rjkodUI",
+          "sets": 3,
+          "reps": "20 per lato",
+          "restSec": 45,
+          "difficulty": "intermedio",
+          "equipment": ["manubrio 6kg"],
+          "notes": "Ruota il busto. Tieni i piedi sollevati per più intensità."
+        },
+        {
+          "id": "leg-raises",
+          "title": "Leg raises",
+          "muscleGroup": "core",
+          "youtubeId": "JB2oyawG9KI",
+          "sets": 3,
+          "reps": "12",
+          "restSec": 60,
+          "difficulty": "intermedio",
+          "equipment": ["tappetino"],
+          "notes": "Addominali bassi. Non inarcare la schiena."
+        }
+      ]
+    },
+    {
+      "slug": "sabato",
+      "title": "Sabato",
+      "focus": "HIIT e condizionamento",
+      "exercises": [
+        {
+          "id": "burpees",
+          "title": "Burpees",
+          "muscleGroup": "full",
+          "youtubeId": "TU8QYVW0gDU",
+          "sets": 4,
+          "reps": "10",
+          "restSec": 60,
+          "difficulty": "intermedio",
+          "equipment": [],
+          "notes": "Esercizio total body. Mantieni un ritmo costante."
+        },
+        {
+          "id": "mountain-climbers",
+          "title": "Mountain climbers",
+          "muscleGroup": "full",
+          "youtubeId": "nmwgirgXLYM",
+          "sets": 3,
+          "reps": "30s",
+          "restSec": 45,
+          "difficulty": "intermedio",
+          "equipment": [],
+          "notes": "Porta le ginocchia al petto velocemente."
+        },
+        {
+          "id": "high-knees",
+          "title": "High knees",
+          "muscleGroup": "full",
+          "youtubeId": "8opcQdC-V-U",
+          "sets": 3,
+          "reps": "30s",
+          "restSec": 45,
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Cardio intenso. Alza le ginocchia il più possibile."
+        },
+        {
+          "id": "plank-shoulder-tap",
+          "title": "Plank con tocco spalla",
+          "muscleGroup": "core",
+          "youtubeId": "bK3vLx201p4",
+          "sets": 3,
+          "reps": "20",
+          "restSec": 45,
+          "difficulty": "intermedio",
+          "equipment": [],
+          "notes": "Tocca alternatamente le spalle. Mantieni i fianchi fermi."
+        }
+      ]
+    },
+    {
+      "slug": "domenica",
+      "title": "Domenica",
+      "focus": "Riposo completo o camminata",
+      "exercises": [
+        {
+          "id": "walk-outdoor",
+          "title": "Camminata all'aperto",
+          "muscleGroup": "full",
+          "youtubeId": "FUbZTo9QGiA",
+          "sets": 1,
+          "reps": "30-45 min",
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Recupero attivo. Goditi la natura e rilassati."
+        },
+        {
+          "id": "meditation",
+          "title": "Meditazione guidata",
+          "muscleGroup": "full",
+          "youtubeId": "ZToicYcHIOU",
+          "sets": 1,
+          "reps": "10 min",
+          "difficulty": "base",
+          "equipment": [],
+          "notes": "Per la mente. Respira profondamente e rilassati."
+        }
+      ]
+    }
+  ]
+}
+
