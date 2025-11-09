@@ -50,6 +50,20 @@ jobs:
             exit 1
           fi
       
+      - name: Check what was built
+        run: |
+          echo "=== Root directory ==="
+          ls -la
+          echo "=== Looking for out or .next ==="
+          if [ -d "out" ]; then
+            echo "✓ out directory found"
+            ls -la out | head -20
+          fi
+          if [ -d ".next" ]; then
+            echo "✓ .next directory found"  
+            ls -la .next | head -20
+          fi
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
