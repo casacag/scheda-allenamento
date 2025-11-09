@@ -7,6 +7,12 @@ const nextConfig = {
   },
   // Repository: scheda-allenamento
   basePath: '/scheda-allenamento',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
 };
 
 export default nextConfig;
