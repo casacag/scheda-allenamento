@@ -13,8 +13,6 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  // Force static export
-  distDir: 'out',
   trailingSlash: true,
 };
 

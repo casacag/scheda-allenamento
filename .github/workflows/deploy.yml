@@ -37,31 +37,24 @@ jobs:
       
       - name: Build with Next.js
         run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
       
-      - name: Debug - List files
+      - name: List build output
         run: |
-          echo "Checking if out directory exists..."
+          echo "=== Root directory ===" 
           ls -la
+          echo "=== Checking for out ===" 
           if [ -d "out" ]; then
-            echo "out directory found!"
-            ls -la out
-          else
-            echo "ERROR: out directory not found!"
-            exit 1
-          fi
-      
-      - name: Check what was built
-        run: |
-          echo "=== Root directory ==="
-          ls -la
-          echo "=== Looking for out or .next ==="
-          if [ -d "out" ]; then
-            echo "✓ out directory found"
+            echo "✓ out exists"
             ls -la out | head -20
+          else
+            echo "✗ out does NOT exist"
           fi
+          echo "=== Checking for .next ===" 
           if [ -d ".next" ]; then
-            echo "✓ .next directory found"  
-            ls -la .next | head -20
+            echo "✓ .next exists"
+            ls -la .next | head -10
           fi
       
       - name: Upload artifact
